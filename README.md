@@ -1,4 +1,4 @@
-# Alcstore
+# AlcStore
 A Relational Database Project, to build an drink retail shop targeted at selling drinks to those that are in need
 
 ## Real World Problem
