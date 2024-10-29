@@ -7,15 +7,15 @@ For some age groups, gaining access to drinks can be extremely challenging. This
 Addressing this imbalance is crucial to ensuring fair and equal treatment. A solution is needed to mitigate this issue and improve access for these groups, helping to alleviate their suffering and enhancing their quality of life.
 
 
-## ERD plan
-Customer( **CustomerID**, CustomerName, CustomerPhone, CustomerBankAccount )
+## ERD Plan
+Customer(**CustomerID**, CustomerName, CustomerPhone, CustomerBankAccount)
 
-Order( <u>**CustomerID**</u>, <u>**DrinkType**</u>, amount, date, price )
+Order(<u>**CustomerID**</u>, <u>**DrinkType**</u>, amount, date, price)
 
-Drink( **DrinkType**, rating, stock )
+Drink(**DrinkType**, rating, stock)
 
-DrinkIngredient( <u>**DrinkType**</u>, <u>**Ingredient**</u> )
+DrinkIngredient(<u>**DrinkType**</u>, <u>**Ingredient**</u>)
 
-Ingredient( **Ingredient**, description)
+Ingredient(**Ingredient**, description)
 
 ![Alt text](Drinks.jpg)
